@@ -1,0 +1,48 @@
+{
+"POST":
+  {
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiSdsdApi = new TempApi.SdsdApi();",
+    "importModelParameter":["let sdsd = new TempApi.Sdsd();"],
+    "modelNames":["sdsd"],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiSdsdApi.createsdsd( sdsd, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },
+  "DELETE":
+  {
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiSdsdApi = new TempApi.SdsdApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiSdsdApi.deletesdsd( sdsdId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');/**nextFunction*/}});"
+  },
+  "GET":
+  {
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiSdsdApi = new TempApi.SdsdApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiSdsdApi.getAllsdsd((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },
+  "GET":
+  {
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiSdsdApi = new TempApi.SdsdApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiSdsdApi.getsdsd( sdsdId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },
+  "PUT":
+  {
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiSdsdApi = new TempApi.SdsdApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiSdsdApi.updatesdsd( sdsdId, opts, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  }
+  
+}
